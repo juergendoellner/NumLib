@@ -6,8 +6,15 @@
 	objectVersion = 46;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		38C0635F17A539E000AEA948 /* NumOp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 38C0635D17A539E000AEA948 /* NumOp.cpp */; };
+		38C0636017A539E000AEA948 /* NumOp.h in Headers */ = {isa = PBXBuildFile; fileRef = 38C0635E17A539E000AEA948 /* NumOp.h */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		38C0635617A539D000AEA948 /* libNumLib.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = libNumLib.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		38C0635D17A539E000AEA948 /* NumOp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NumOp.cpp; sourceTree = "<group>"; };
+		38C0635E17A539E000AEA948 /* NumOp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NumOp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -24,6 +31,8 @@
 		38C0634D17A539D000AEA948 = {
 			isa = PBXGroup;
 			children = (
+				38C0635D17A539E000AEA948 /* NumOp.cpp */,
+				38C0635E17A539E000AEA948 /* NumOp.h */,
 				38C0635717A539D000AEA948 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +52,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C0636017A539E000AEA948 /* NumOp.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -97,6 +107,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				38C0635F17A539E000AEA948 /* NumOp.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
