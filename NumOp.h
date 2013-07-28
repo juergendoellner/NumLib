@@ -14,6 +14,7 @@
 class NumOp {
 public:
     NumOp();
+    float add(float,float);
 };
 
 #endif /* defined(__NumLib__NumOp__) */

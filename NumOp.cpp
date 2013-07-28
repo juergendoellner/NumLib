@@ -10,3 +10,7 @@
 
 NumOp::NumOp() {
 }
+
+float NumOp::add(float a, float b) {
+    return a+b;
+}
